@@ -4,7 +4,7 @@ public class Groups {
 
     private String type;
     private String name;
-    private Trainer trainer;
+/*    private Trainer trainer;*/
     private List<Training> listOfTrainings;
 
     public Groups(String type, String name) {
@@ -28,13 +28,13 @@ public class Groups {
         this.name = name;
     }
 
-    public Trainer getTrainer() {
+ /*   public Trainer getTrainer() {
         return trainer;
     }
 
     public void setTrainer(Trainer trainer) {
         this.trainer = trainer;
-    }
+    }*/
 
     public List<Training> getListOfTrainings() {
         return listOfTrainings;

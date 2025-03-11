@@ -25,7 +25,7 @@ public class Training {
         this.listOfMembers = listOfMembers;
     }
 
-    public int getPayments() {
+       public int getPayments() {
         return this.price * this.listOfMembers.size();
     }
 }
