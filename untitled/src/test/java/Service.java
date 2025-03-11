@@ -1,7 +1,6 @@
 public class Service {
     public int getPercent(Trainer trainer, Gym gym){
-        int percent = ((trainer.getPercent() * gym.getTotalAmount()) / 100);
-        return percent;
+        return (trainer.getSalary() * 100) / gym.getTotalAmount();
     }
 
   public Trainer getRichBitch(Gym gym) {
